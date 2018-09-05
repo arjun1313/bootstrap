@@ -1,0 +1,40 @@
+.carousel-inner{
+  img {
+  height:100vh;
+  padding-top: 8vh;
+}
+}
+#smallimage{
+  @include pathim(url('../img/photography.jpg'));
+  height: 70vh;
+  width: 100%;
+}
+.smalltext {
+  text-align: left;
+  p {
+    background: rgba(255,255,255,0.3);
+    width: 33vw;
+    font-size: 1.5rem;
+  }
+}
+#what-we-do {
+  h4 { padding: 1rem 1rem 0;}
+}
+#stuff {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+#stuff {
+  a:hover
+   {
+     text-decoration: none;
+     color: grey;
+   }
+}
+#footer-main {
+  padding: 3rem;
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,6 @@
+@mixin pathim($var)
+{
+  background: $var;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

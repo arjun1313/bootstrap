@@ -1,0 +1,13 @@
+@media screen and (max-width:600px){
+  .carousel-inner img {
+    height:100%;
+  }
+}
+@media screen and (max-width:450px){
+  .smalltext {
+    p {
+      background: rgba(255,255,255,0.3);
+      font-size: 1.3rem;
+    }
+  }
+}
