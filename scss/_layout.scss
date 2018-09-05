@@ -4,6 +4,14 @@
   padding-top: 8vh;
 }
 }
+
+.jumbotron {
+  .login {
+    padding: 0.8rem;
+    background-color : rgba(255,255,255,0.5);
+  }
+}
+
 #smallimage{
   @include pathim(url('../img/photography.jpg'));
   height: 70vh;
